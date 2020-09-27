@@ -1,22 +1,21 @@
 {
-  "name": "alphavantage-free",
+  "name": "@ragnarpa/alphavantage",
   "version": "0.1.0",
   "description": "Alpha Vantage API client side throttling for Free plan.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "bin": {
-    "alpha": "dist/cli/index.js",
     "av": "dist/cli/index.js"
   },
   "scripts": {
     "test": "mocha -r ts-node/register src/**/*.spec.ts",
     "coverage": "nyc -r lcov -e .ts -x \"*.test.ts\" npm run test",
     "prepare": "tsc",
-    "build": "tsc"
+    "build": "tsc",
+    "prepublishOnly": "tsc"
   },
   "author": "Ragnar Paide",
   "license": "MIT",
-  "private": true,
   "devDependencies": {
     "@types/mocha": "^7.0.2",
     "@types/node": "^13.13.21",
