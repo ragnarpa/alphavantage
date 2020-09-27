@@ -18,6 +18,9 @@
   "license": "MIT",
   "homepage": "https://github.com/ragnarpa/alphavantage",
   "bugs": "https://github.com/ragnarpa/alphavantage/issues",
+  "engines": {
+    "node": ">=10.22"
+  },
   "devDependencies": {
     "@types/mocha": "^7.0.2",
     "@types/node": "^13.13.21",
