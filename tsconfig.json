@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+
+    "target": "ES6",
+    "module": "CommonJS",
+    "lib": [
+      "ES2016"
+    ],
+    "declaration": true,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "baseUrl": "./",
+    "paths": {
+      "alphavantage": ["types/alphavantage"]
+    },
+    "typeRoots": [
+      "./node_modules/@types",
+      "./types"
+    ],
+    "types": [
+      "node",
+      "mocha"
+    ],
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}
