@@ -17,6 +17,7 @@
   "author": "Ragnar Paide",
   "license": "MIT",
   "homepage": "https://github.com/ragnarpa/alphavantage",
+  "bugs": "https://github.com/ragnarpa/alphavantage/issues",
   "devDependencies": {
     "@types/mocha": "^7.0.2",
     "@types/node": "^13.13.21",
