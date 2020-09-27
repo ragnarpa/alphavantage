@@ -4,9 +4,18 @@ A small library and CLI for Alpha Vantage Stock and Forex API.
 
 ## Installation
 
+Npm
+
 ```
-npm install @ragnarpa/alphavantage
+npm install -g @ragnarpa/alphavantage
 ```
+
+Yarn
+
+```
+yarn global add @ragnarpa/alphavantage
+```
+
 
 ## Usage
 
